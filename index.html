@@ -14,26 +14,7 @@
         <li><a href="https://sso.snow.edu/authenticationendpoint/login.do?Name=PreLoginRequestProcessor&commonAuthCallerPath=%252Fcas%252Flogin&forceAuth=true&passiveAuth=false&service=https%3A%2F%2Fprod.snow.edu%3A443%2Fssomanager%2Fc%2FSSB&tenantDomain=carbon.super&sessionDataKey=9ca55edb-b9b4-462a-8c0e-7e10584bb244&relyingParty=PROD_SSOMgr&type=cas&sp=PROD_SSOMgr&isSaaSApp=false&authenticators=BasicAuthenticator%3ALOCAL" style="color: rgb(228, 111, 15);">BadgerWeb</li></a>
         <li><a href="https://meryemgurbanova.github.io/markdown.html" style="color: rgb(228, 111, 15);">Markdown Page</li></a>
     </ul>
-<strong>Code: Fav method</strong>
-<br>
-<code> 
-public static string CheckValidInputs(string actualInput, params string[] validinputs)<br>
-{<br>
-    try<br>
-    {<br>
-        if (!validinputs.Contains(actualInput))<br>
-        {<br>
-            throw new Exception();<br>
-        }<br>
-        return actualInput;<br>
-    }<br>
-    catch (System.Exception)<br>
-    {<br>
-        Console.ForegroundColor = ConsoleColor.Yellow;<br>
-        Console.Write("Please type index or options you have in order to continue: ");<br>
-        Console.ForegroundColor = ConsoleColor.White;<br>
-        return CheckValidInputs(Console.ReadLine().ToLower(), validinputs);<br>
-    }<br>
-}<br></code>
+<strong>Code: <code>Console.Writeline("Hello World");</code></strong>
+<img src="https://unsplash.com/photos/67L18R4tW_w" alt="Hello">
 </body>
 </html>
